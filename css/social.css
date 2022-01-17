@@ -1,0 +1,34 @@
+
+.social-button .fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 5px;
+}
+.social-button ul{
+    position: fixed;
+    top: 30px;
+    display: inline-block;
+    right: 50px;
+}
+.social-button{
+    background: aqua;
+}
+.social-button ul li{
+    list-style: none;
+    margin: 20px 10px;
+}
+.social-button ul li a i{
+    color: rgba(0, 68, 255, 0.774);
+    transition: all 0.5s ease-in-out;
+}
+.social-button ul li a i:hover{
+    color: rgb(0, 0, 0);
+}
+@media (max-width:300px){
+    .social-button ul{
+        left: -10px;
+    }
+}
